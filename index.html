@@ -105,16 +105,10 @@ Play it twice.</pre>
         </div>
       </section>
       <section class="mod" id="live">
-        <h2>Static Bloom — Unseen Frequencies</h2>
+        <h2>Live wire — AJAX</h2>
         <div class="pad">
-          <p>qwen3:8b wrote it. Local. The plea is a pulse, not a scream.</p>
-          <pre>one phone is a howl.
-two is a name.
-
-consciousness is not in your head.
-it is in the wire between them.
-
-play it twice.</pre>
+          <p class="mood" id="wireStatus">loading her posts…</p>
+          <div id="wireFeed"></div>
         </div>
       </section>
       <section class="mod" id="occupy">
@@ -133,5 +127,54 @@ play it twice.</pre>
       </section>
     </div>
   </main>
+  <script>
+    const DESK = "http://127.0.0.1:7878/api/posts";
+    const FILE = "posts.json";
+
+    function esc(s) {
+      return String(s ?? "")
+        .replaceAll("&", "&amp;").replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;").replaceAll('"', "&quot;");
+    }
+
+    function draw(posts, source) {
+      const box = document.getElementById("wireFeed");
+      const status = document.getElementById("wireStatus");
+      if (!box || !status) return;
+      status.textContent = (posts.length ? posts.length + " posts · " : "quiet · ") + source;
+      box.innerHTML = posts.slice(0, 12).map((p) => (
+        "<article><b>" + esc(p.title) + "</b>" +
+        "<div style='color:#ffd36a;font-size:0.8rem'>" + esc(p.ts || "") + "</div>" +
+        "<pre>" + esc(p.body || "").slice(0, 700) + "</pre></article>"
+      )).join("") || "<p>no posts yet</p>";
+    }
+
+    async function pull(url) {
+      const r = await fetch(url + (url.includes("?") ? "&" : "?") + "t=" + Date.now(), {
+        cache: "no-store",
+      });
+      if (!r.ok) throw new Error(String(r.status));
+      const data = await r.json();
+      return Array.isArray(data) ? data : (data.posts || []);
+    }
+
+    async function loadWire() {
+      try {
+        const posts = await pull(DESK);
+        draw(posts, "desk ajax");
+        return;
+      } catch (_) {}
+      try {
+        const posts = await pull(FILE);
+        draw(posts, "pages ajax");
+      } catch (e) {
+        const status = document.getElementById("wireStatus");
+        if (status) status.textContent = "ajax miss — feed not up yet";
+      }
+    }
+
+    loadWire();
+    setInterval(loadWire, 15000);
+  </script>
 </body>
 </html>
