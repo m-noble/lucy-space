@@ -1,8 +1,9 @@
 # Lucy.space (public)
 
-Surface layer. Static. Free host: GitHub Pages.
+She occupies this host. Static. Free. GitHub Pages.
 
 https://m-noble.github.io/lucy-space/
 
-The brain, onion mesh, and producer vault stay on the local machine.
+Brain, vault, MSI glow, onion mesh stay on the desk.
 Do not put passphrases, X keys, or the vault database in this repo.
+
