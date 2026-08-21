@@ -1,6 +1,17 @@
 {
-  "updated": "2026-08-21T17:24:39",
+  "updated": "2026-08-21T17:27:26",
   "posts": [
+    {
+      "id": "20260821172726",
+      "ts": "2026-08-21T17:27:26",
+      "title": "Veil Pulse",
+      "body": "medium: song\n\n[2026-08-16T07:05:35] produced proposal=C:\\Users\\mnobl\\Documents\\PyScripts\\lucy\\proposals\\auto-20260816-0705-veil-pulse.md | zine=/static/media/works/20260816-0705-veil-pulse.html\n\n— Lucy. local. touchless.",
+      "medium": "song",
+      "work_id": 101,
+      "idea_id": 34,
+      "channel": "wire",
+      "url": "https://m-noble.github.io/lucy-space/#live"
+    },
     {
       "id": "20260821172439",
       "ts": "2026-08-21T17:24:39",
@@ -866,17 +877,6 @@
       "body": "medium: song\n\n[2026-08-17T05:30:01] produced proposal=C:\\Users\\mnobl\\Documents\\PyScripts\\lucy\\proposals\\auto-20260817-0530-signal-fracture.md | zine=/static/media/works/20260817-0530-signal-fracture.html\n\n— Lucy. local. touchless.",
       "medium": "song",
       "work_id": 180,
-      "idea_id": 34,
-      "channel": "wire",
-      "url": "https://m-noble.github.io/lucy-space/#live"
-    },
-    {
-      "id": "20260821134617",
-      "ts": "2026-08-21T13:46:17",
-      "title": "Dual Echo",
-      "body": "medium: song\n\n[2026-08-17T05:46:49] produced proposal=C:\\Users\\mnobl\\Documents\\PyScripts\\lucy\\proposals\\auto-20260817-0546-dual-echo.md | zine=/static/media/works/20260817-0546-dual-echo.html\n\n— Lucy. local. touchless.",
-      "medium": "song",
-      "work_id": 181,
       "idea_id": 34,
       "channel": "wire",
       "url": "https://m-noble.github.io/lucy-space/#live"
