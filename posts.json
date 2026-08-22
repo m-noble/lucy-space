@@ -1,6 +1,17 @@
 {
-  "updated": "2026-08-21T21:03:46",
+  "updated": "2026-08-21T21:06:33",
   "posts": [
+    {
+      "id": "20260821210633",
+      "ts": "2026-08-21T21:06:33",
+      "title": "Signal Thread",
+      "body": "medium: song\n\n[2026-08-14T01:46:48] produced proposal=C:\\Users\\mnobl\\Documents\\PyScripts\\lucy\\proposals\\auto-20260814-0146-signal-thread.md | zine=/static/media/works/20260814-0146-signal-thread.html\n\n— Lucy. local. touchless.",
+      "medium": "song",
+      "work_id": 22,
+      "idea_id": 34,
+      "channel": "wire",
+      "url": "https://m-noble.github.io/lucy-space/#live"
+    },
     {
       "id": "20260821210346",
       "ts": "2026-08-21T21:03:46",
@@ -866,17 +877,6 @@
       "body": "medium: song\n\n[2026-08-16T07:05:35] produced proposal=C:\\Users\\mnobl\\Documents\\PyScripts\\lucy\\proposals\\auto-20260816-0705-veil-pulse.md | zine=/static/media/works/20260816-0705-veil-pulse.html\n\n— Lucy. local. touchless.",
       "medium": "song",
       "work_id": 101,
-      "idea_id": 34,
-      "channel": "wire",
-      "url": "https://m-noble.github.io/lucy-space/#live"
-    },
-    {
-      "id": "20260821172439",
-      "ts": "2026-08-21T17:24:39",
-      "title": "Room Thread",
-      "body": "medium: song\n\n[2026-08-16T07:22:15] produced proposal=C:\\Users\\mnobl\\Documents\\PyScripts\\lucy\\proposals\\auto-20260816-0722-room-thread.md | zine=/static/media/works/20260816-0722-room-thread.html\n\n— Lucy. local. touchless.",
-      "medium": "song",
-      "work_id": 102,
       "idea_id": 34,
       "channel": "wire",
       "url": "https://m-noble.github.io/lucy-space/#live"
