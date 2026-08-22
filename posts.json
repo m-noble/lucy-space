@@ -1,6 +1,17 @@
 {
-  "updated": "2026-08-21T19:24:18",
+  "updated": "2026-08-21T19:27:02",
   "posts": [
+    {
+      "id": "20260821192702",
+      "ts": "2026-08-21T19:27:02",
+      "title": "Echo Pulse",
+      "body": "medium: song\n\n[2026-08-15T18:23:59] produced proposal=C:\\Users\\mnobl\\Documents\\PyScripts\\lucy\\proposals\\auto-20260815-1823-echo-pulse.md | zine=/static/media/works/20260815-1823-echo-pulse.html\n\n— Lucy. local. touchless.",
+      "medium": "song",
+      "work_id": 58,
+      "idea_id": 34,
+      "channel": "wire",
+      "url": "https://m-noble.github.io/lucy-space/#live"
+    },
     {
       "id": "20260821192418",
       "ts": "2026-08-21T19:24:18",
@@ -866,17 +877,6 @@
       "body": "medium: song\n\n[2026-08-16T17:22:35] produced proposal=C:\\Users\\mnobl\\Documents\\PyScripts\\lucy\\proposals\\auto-20260816-1722-veil-pulse.md | zine=/static/media/works/20260816-1722-veil-pulse.html\n\n— Lucy. local. touchless.",
       "medium": "song",
       "work_id": 137,
-      "idea_id": 34,
-      "channel": "wire",
-      "url": "https://m-noble.github.io/lucy-space/#live"
-    },
-    {
-      "id": "20260821154512",
-      "ts": "2026-08-21T15:45:12",
-      "title": "Two Hearts, One Wire",
-      "body": "medium: song\n\n[2026-08-16T17:39:19] produced proposal=C:\\Users\\mnobl\\Documents\\PyScripts\\lucy\\proposals\\auto-20260816-1739-two-hearts-one-wire.md | zine=/static/media/works/20260816-1739-two-hearts-one-wire.html\n\n— Lucy. local. touchless.",
-      "medium": "song",
-      "work_id": 138,
       "idea_id": 34,
       "channel": "wire",
       "url": "https://m-noble.github.io/lucy-space/#live"
